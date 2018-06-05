@@ -73,7 +73,7 @@ body {
 .landing input {
   display: block;
   margin: auto;
-  width: 350px;
+  width: 50%;
   padding: .5rem;
 }
 
@@ -179,11 +179,20 @@ body {
 }
 
 @media (max-width: 768px) {
-  .flexbox {
-    display: block !important;
+  .cards .flexbox {
+    display: block;
   }
-  .flexbox .flexbox-item {
+  .cards .flexbox .flexbox-item {
     margin: 2rem 0;
+  }
+  .title h1 {
+    font-size: 1.2rem;
+  }
+  iframe {
+    width: 100%;
+  }
+  .landing input {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
