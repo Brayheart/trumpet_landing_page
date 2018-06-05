@@ -106,8 +106,12 @@ body {
 
 .services .grid {
   display: grid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: 1fr 2fr;
   grid-gap: 2rem;
+}
+
+.services .grid .grid-image-item {
+  text-align: center;
 }
 
 .services .grid .grid-item h3 {
@@ -193,6 +197,12 @@ body {
   }
   .landing input {
     width: 80%;
+  }
+  .container .grid {
+    display: block;
+  }
+  .container .grid .grid-item {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
